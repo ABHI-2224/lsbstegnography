@@ -11,7 +11,7 @@ Python 3.x
 PIL (Python Imaging Library)
 
 # Installation
-Clone the repository : git clone https://github.com/ABHI-2224/lsbsteganography.git
+Clone the repository : git clone https://github.com/ABHI-2224/lsbstegnography.git
 
 # Navigate to the project directory : 
 cd lsb-steganography
