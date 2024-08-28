@@ -1,12 +1,8 @@
-
 from PIL import Image
 import os
- 
-def message_to_bin(message):
-    binary_message = ''.join(format(ord(char), '08b') for char in message)
+     binary_message = ''.join(format(ord(char), '08b') for char in message)
     return binary_message
  
-
  
 def encode_lsb(image_path, message):
     img = Image.open(image_path)
